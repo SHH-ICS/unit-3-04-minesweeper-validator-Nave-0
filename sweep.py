@@ -6,7 +6,12 @@ def validate( block_data ):
   # Check whether the centre block is a bomb, a number, or an invalid input
   # Skip bombs, send an error on invalid input, verify numbers
 
-  return
+  return validation 
+
+
+row = 0
+col = 0
+bombs = 0
 
 
 grid = [
